@@ -56,3 +56,4 @@ docker run -it --rm --gpus all --name mlperf_training \
 			TEST.IMS_PER_BATCH ${TEST_IMS_PER_BATCH} \
 			MODEL.RPN.FPN_POST_NMS_TOP_N_TRAIN ${FPN_POST_NMS_TOP_N_TRAIN} \
 			NHWC True"
+
